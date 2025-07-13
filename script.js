@@ -399,6 +399,13 @@ class Asteroid extends Enemy {
 // We want to wait till all our assets are loaded before js kicks in
 // So we are putting all our code in an event listener
 window.addEventListener("load", () => {
+
+  // Don't render game on small screens 
+  if (window.innerWidth < 800 || window.innerHeight < 800) {
+    document.body.innerHTML = "<h2 style='color: red; text-align: center;'>This game requires at least 800×800 screen size.</h2>";
+    return; // Stop execution
+  }
+
   // Canvas is like the page we are drawing on
   const canvas = document.getElementById("canvas1");
   canvas.width = 800;
