@@ -1,3 +1,3 @@
-# Planet Defence
+# Defend The Planet
 
-Today we are building an animated 2d game completely from scratch with no frameworks and no libraries using just plain vanilla JavaScript and HTML5 canvas.
+`Defend The Planet` is a 2D game built with puer vanilla JS without the use of any external frameworks / libraries.
