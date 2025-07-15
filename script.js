@@ -401,10 +401,10 @@ class Asteroid extends Enemy {
 window.addEventListener("load", () => {
 
   // Don't render game on small screens 
-  if (window.innerWidth < 800 || window.innerHeight < 800) {
-    document.body.innerHTML = "<h2 style='color: red; text-align: center;'>This game requires at least 800×800 screen size.</h2>";
-    return; // Stop execution
-  }
+  // if (window.innerWidth < 800 || window.innerHeight < 800) {
+  //   document.body.innerHTML = "<h2 style='color: red; text-align: center;'>This game requires at least 800×800 screen size.</h2>";
+  //   return; // Stop execution
+  // }
 
   // Canvas is like the page we are drawing on
   const canvas = document.getElementById("canvas1");
